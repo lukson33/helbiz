@@ -1,0 +1,48 @@
+.mobile-hidden {
+  transform: translateY(-100%);
+}
+
+@font-face {
+  font-family: "Neue";
+  src: url("../NeueHaasDisplayMediu.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Neue Thin";
+  src: url("../NeueHaasDisplayThin.ttf") format("truetype");
+}
+
+body {
+  font-family: "Neue";
+  font-style: normal;
+}
+
+.thin {
+  font-family: "Neue Thin";
+}
+
+.about-hidden {
+  transform: translateY(-120%);
+}
+
+.nav-active {
+  border-bottom: 3px solid rgb(26, 26, 180);
+}
+
+.nav-about {
+  height: 100vh;
+  background-color: #fff;
+}
+
+.nav-about li {
+  cursor: pointer;
+}
+
+.nav-about li:hover {
+  color: rgb(0, 119, 255);
+}
+
+.hamburger-about {
+  top: 30px;
+  height: 0;
+}

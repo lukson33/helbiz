@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preload" href="NeueHaasDisplay-Black.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/hamburgers.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Helbiz</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="xl:container p-4 flex justify-between items-center h-16 mx-auto">
+            <a href="#">
+                <img src="img/helbiz-logo.svg" alt="">
+            </a>
+
+            <div
+                class="lg:block hidden lg:block transform translate-y-100 nav transition-transform duration-500 bg-transparent uppercase font-semibold flex hide-mobile ml-auto mr-2">
+                <ul class="xl:mr-12 lg:h-full flex text-tiny lg:space-x-5 xl:space-x-8">
+                    <li><a class="tracking-widest p-2 text-xs thin uppercase" href="#">Mobility</a></li>
+                    <li><a class="tracking-widest p-2 text-xs thin" href="#">Helbiz Kitchen</a></li>
+                    <li><a class="tracking-widest p-2 text-xs thin" href="#">Helbiz Live</a></li>
+                    <li><a class="tracking-widest p-2 text-xs thin" href="#">Investors</a></li>
+                    <li><a class="tracking-widest p-2 text-xs thin" href="#">Unlimited</a></li>
+                    <li><a class="tracking-widest p-2 text-xs thin about-btn" href="#">About</a></li>
+                </ul>
+            </div>
+
+            <div
+                class="text-base overflow-y-auto h-screen hide-desktop mobile-navigation transition-transform duration-500 fixed inset-0 bg-white active z-10 mobile-hidden">
+                <div class="mx-auto">
+                    <div class="nav-row flex justify-between p-4">
+                        <img src="img/helbiz-logo.svg" alt="">
+                        <a class="normal-case py-2 px-6 text-sm transition duration-300 ease-in-out relative hide-mobile ml-4 bg-black text-white mr-14"
+                            href="#">Login</a>
+                    </div>
+
+                    <div class="nav-row p-5 bg-gray-200">
+                        <a class="mr-4 nav-product nav-active py-5" href="#">Our Product</a>
+                        <a class="nav-company py-5" href="#">Our Company</a>
+                    </div>
+
+                    <div class="nav-row nav-list-5 p-4">
+                        <ul>
+                            <li class="py-3"><a href="">Mobility</a></li>
+                            <li class="py-3"><a href="">Helbiz Kitchen</a></li>
+                            <li class="py-3"><a href="">Helbiz Live</a></li>
+                            <li class="py-3"><a href="">Investors</a></li>
+                            <li class="py-3 border-b border-gray-250"><a href="">Unlimited</a></li>
+                            <li class="py-3"><a href="">Privacy Policy</a></li>
+                            <li class="py-3 border-b border-gray-250"><a href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="nav-row nav-list-9 p-4 hidden">
+                        <ul>
+                            <li class="py-3"><a href="">About</a></li>
+                            <li class="py-3"><a href="">Company Info</a></li>
+                            <li class="py-3"><a href="">Sustainability</a></li>
+                            <li class="py-3"><a href="">Safety</a></li>
+                            <li class="py-3"><a href="">Partners</a></li>
+                            <li class="py-3"><a href="">Newsroom</a></li>
+                            <li class="py-3"><a href="">Cities</a></li>
+                            <li class="py-3"><a href="">Advertising</a></li>
+                            <li class="py-3 border-b border-gray-250"><a href="">Support</a></li>
+                            <li class="py-3"><a href="">Privacy Policy</a></li>
+                            <li class="py-3 border-b border-gray-250"><a href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="nav-about mt-20 p-8 about-hidden text-base overflow-y-auto h-screen transition-transform duration-300 fixed inset-0 bg-white active z-30">
+                <div class="mx-auto">
+                    <div class="xl:container mx-auto px-8  nav-row flex justify-between">
+                        <ul
+                            class="subnavigation-list md:opacity-0 transition duration-150 text-xl lg:text-2xl xl:text-5xl h-full flex flex-col space-y-4 md:opacity-100 visible">
+                            <li class="py-2 transition-color duration-150">
+                                <a class="" href=""></a>About
+                            </li>
+                            <li class="py-2 transition-color duration-150"><a class="" href="#"></a>Company Info</li>
+                            <li class="py-2 transition-color duration-150"><a class="" href="#"></a>Sustainability</li>
+                            <li class="py-2 transition-color duration-150"><a class="" href="#"></a>Safety</li>
+                            <li class="py-2 transition-color duration-150"><a class="" href="#"></a>Partners</li>
+                            <li class="py-2 transition-color duration-150"><a class="" href="#"></a>Newsroom</li>
+                            <li class="py-2 transition-color duration-150"><a class="" href="#"></a>Cities</li>
+                            <li class="py-2 transition-color duration-150"><a class="" href="#"></a>Advertising</li>
+                            <li class="py-2 transition-color duration-150"><a class="" href="#"></a>Support</li>
+                        </ul>
+
+                        <button class="hamburger-about hamburger--elastic is-active flex relative" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <a class="normal-case py-2 px-6 text-sm transition duration-300 ease-in-out relative hide-mobile ml-4 bg-black text-white hidden lg:block"
+                href="#">Login</a>
+
+            <button class="hamburger hamburger--elastic lg:hidden block z-20" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+    </div>
+
+    <div class="hero">
+        <h1
+            class="sm:text-6xl md:text-8xl xl:text-9xl text-6xl hero-title text-black text-center pt-20 md:pt-24 mx-4 leading-tight">
+            Mobility
+            of
+            Tomorrow</h1>
+        <div class="overflow-hidden max-w-full h-full md:h-auto pb-12">
+            <img class="h-full w-auto max-w-none md:max-w-full md:h-auto md:mx-auto transition transition-transform duration-75"
+                src="img/hero-img.png" alt="" width="1344" height="520">
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
