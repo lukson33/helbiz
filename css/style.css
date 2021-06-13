@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: "Neue";
-  src: url("../NeueHaasDisplayMediu.ttf") format("truetype");
+  src: url("../fonts/NeueHaasDisplayMediu.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Neue Thin";
-  src: url("../NeueHaasDisplayThin.ttf") format("truetype");
+  src: url("../fonts/NeueHaasDisplayThin.ttf") format("truetype");
 }
 
 body {
