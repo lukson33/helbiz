@@ -17,6 +17,60 @@ body {
   font-style: normal;
 }
 
+.nav-list-5 {
+  position: absolute;
+  width: 100%;
+  transition: 0.3s all;
+}
+
+.nav-list-9 {
+  position: absolute;
+  width: 100%;
+  transition: 0.3s all;
+}
+
+.nav-btns {
+  position: relative;
+}
+
+.blue-border {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 90px;
+  height: 3px;
+  background-color: rgb(48, 48, 179);
+  transition: 0.6s all;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+/* @keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+} */
+
 .thin {
   font-family: "Neue Thin";
 }
@@ -25,9 +79,9 @@ body {
   transform: translateY(-120%);
 }
 
-.nav-active {
+/* .nav-active {
   border-bottom: 3px solid rgb(26, 26, 180);
-}
+} */
 
 .nav-about {
   height: 100vh;
